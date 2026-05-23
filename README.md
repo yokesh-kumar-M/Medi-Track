@@ -1,6 +1,17 @@
 # Medi Track
 
-Medi Track is a full-stack healthcare platform for appointment booking, medical record management, doctor workflows, and emergency patient lookup. It serves three core roles, patients, doctors, and admins, and combines a modern web application with ESP32-based fingerprint device support for critical access scenarios.
+[![Next.js](https://img.shields.io/badge/Next.js-14-000?logo=nextdotjs)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-18-61DAFB?logo=react)](https://react.dev/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-47A248?logo=mongodb)](https://www.mongodb.com/)
+[![Redux](https://img.shields.io/badge/Redux-Toolkit-764ABC?logo=redux)](https://redux-toolkit.js.org/)
+[![Socket.io](https://img.shields.io/badge/Socket.io-realtime-010101?logo=socketdotio)](https://socket.io/)
+[![ESP32](https://img.shields.io/badge/ESP32-fingerprint-E7352C?logo=espressif)](https://www.espressif.com/)
+[![Live](https://img.shields.io/badge/live-medi--track--sable.vercel.app-brightgreen)](https://medi-track-sable.vercel.app/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
+Medi Track is a full-stack healthcare platform for appointment booking, medical record management, doctor workflows, and emergency patient lookup. It serves three core roles — patients, doctors, and admins — and combines a modern web application with **ESP32-based fingerprint device support** for critical-access scenarios.
+
+> **Killer use case:** an unconscious patient arrives at A&E with no ID. A fingerprint scan from the ESP32 device unlocks their medical record so the on-call doctor can see allergies, current medications, and emergency contacts in seconds.
 
 Live app: [https://medi-track-sable.vercel.app/](https://medi-track-sable.vercel.app/)
 
@@ -216,3 +227,15 @@ Run the project tests with:
 cd meditrack-next
 npm test
 ```
+
+---
+
+## Related projects
+
+- [Portfolio](https://github.com/yokesh-kumar-M/Portfolio) — Iron Man HUD personal site (React 19 + Three.js).
+- [PHOTOGRAHPIC-PORTFOLIO-WEBSITE](https://github.com/yokesh-kumar-M/PHOTOGRAHPIC-PORTFOLIO-WEBSITE) — forkable photographer-portfolio template (Next.js + Express).
+- [Yokesh Kumar M](https://github.com/yokesh-kumar-M) — full list of projects.
+
+## License
+
+[MIT](LICENSE) — © 2026 Hrithik Vasanthram.
